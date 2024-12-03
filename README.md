@@ -12,6 +12,7 @@
 - Create BrowserRouter > Routes > Route=/ Body > RouteChildren
 - Creae an Outlet in your body component
 - Create Footer
+- Create a Login page (Daisy UI)
 
 # Part2
 

@@ -41,6 +41,10 @@
 - Change the Navbar photo according to user {user && ...}
 - Navigate user to feedpage useing useNavigate hook
 
+# Part3
+
 - TASK - Even after refreshing a page user profile should stay
 - In a body.jsx create a fetchUser function
-- Get a profile/view api call
+- Get a profile/view api call from backend
+- TASK - If not login not able to access other page
+- In Body.jsx in fetch user function in error Navigate to "./" page

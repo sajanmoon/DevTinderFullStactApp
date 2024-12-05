@@ -43,8 +43,28 @@
 
 # Part3
 
+- TASK - You should not be able to access other route without login
+- Body.jsx useNavigate in error
 - TASK - Even after refreshing a page user profile should stay
 - In a body.jsx create a fetchUser function
 - Get a profile/view api call from backend
 - TASK - If not login not able to access other page
 - In Body.jsx in fetch user function in error Navigate to "./" page
+
+# LOGOUT-Profile
+
+- Navbar.jsx make an api call of logout
+- We need to clear the redux store => useDispatch from createSlice => removeUser in Navbar.jsx
+- navigate to "./login" route
+
+# FEED - API
+
+- getfeed api function in feed.jsx
+- Get the feed api with axios
+- create a feed slice
+- add to redux store
+- with dispatch get data in feed path
+- with the useEffect render getfeed function
+- create a Usercard componet > add Card(Daisy UI)
+- send data from feed to usercard
+- display all the information in UI with props
